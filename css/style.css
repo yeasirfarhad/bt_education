@@ -1,0 +1,75 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+
+/*common*/
+body{
+font-family: 'Dosis', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #333333;
+}
+/*common*/
+
+/*header start*/
+header{
+	background-color: #ffd338;
+	
+}
+.nav_t_c{
+	color: rgb(241 92 92) !important;
+	border-color: rgb(241 92 92)!important;
+}
+.nav_t_c:focus{
+	color: rgb(241 92 92)!important;
+	border-color: rgb(241 92 92)!important;
+
+}
+
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color:white !important;
+	padding:3px 20px !important;
+	border-radius: 15px;
+
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+	
+}
+
+.d_user{
+	/*background-color: #ffd338;*/
+}
+.d_user_a, .d_search_a{
+	color: white;
+}
+
+.d_user_a:hover, .d_search_a:hover{
+	color: #f05c5c;
+}
+.d_user_a:focus, .d_search_a:focus{
+	box-shadow: 0 0 0 0.25rem rgb(241 92 92);
+}
+
+.d_user_ul, .d_search_ul{
+
+	background-color: #ffd338;
+}
+
+.d_user_ul{
+	top:165%;
+	left:-110px;
+}
+.d_search_ul{
+	top:165%;
+	left:-300px;
+	min-width: 350px;
+
+}
+.d_search{
+	}
+/*header end*/
